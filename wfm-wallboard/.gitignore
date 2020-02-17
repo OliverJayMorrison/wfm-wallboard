@@ -10,6 +10,9 @@
 /build
 
 # misc
+/iws
+workspace.xml
+tasks.xml
 .DS_Store
 .env
 npm-debug.log*
