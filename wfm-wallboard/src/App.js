@@ -17,5 +17,28 @@ class App extends Component {
         );
     }
 }
+class HeaderRow extends React.Component {
+    /*3 elements in the row. Left Element id Verint logo, middle is configurable call center name, right component is a date and time display*/
+        render () {
+            return {
+             <div class = row>
+                 <div class = imageColumn>
+                     <img src = "verint.png"></img>
+                 </div>
+                 <div class = companyName>
+                     <h1> Insert Company Name Wallboard</h1>
+                 </div>
+             </div>
+            }
+        }
+}
 
+class QueueRow extends React.Component {
+    render() {
+        /*Needs queue name, and up to 4 data inputs, using Volume, AHT, Service level and ASA to start (make configurable if remaining time.*/
+        <div>
+            <p> Queue Name</p>
+        </div>
+    }
+}
 export default App;
