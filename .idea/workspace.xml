@@ -24,21 +24,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="717edbd4-838e-45da-a586-b62f73ceb7e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wfm-wallboard/src/MyApp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfm-wallboard/src/WallboardHeader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfm-wallboard/src/WallboardHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfm-wallboard/src/WallboardRow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfm-wallboard/src/WallboardRow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfm-wallboard/src/WallboardRowQueue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfm-wallboard/src/WallboardRowQueue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfm-wallboard/src/WallboardRowStatistic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfm-wallboard/src/WallboardRowStatistic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wfm-wallboard/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/wfm-wallboard/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wfm-wallboard/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/wfm-wallboard/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wfm-wallboard/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/wfm-wallboard/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wfm-wallboard/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/wfm-wallboard/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wfm-wallboard/src/logo.svg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wfm-wallboard/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+            <state relative-caret-position="323">
+              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -81,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wfm-wallboard/src/WallboardHeader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+            <state relative-caret-position="340">
+              <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -96,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wfm-wallboard/src/WallboardHeader.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -172,11 +158,11 @@
         <option value="$PROJECT_DIR$/wfm-wallboard/src/WallboardRow.js" />
         <option value="$PROJECT_DIR$/wfm-wallboard/src/WallboardRowStatistic.js" />
         <option value="$PROJECT_DIR$/wfm-wallboard/src/WallboardRowQueue.css" />
-        <option value="$PROJECT_DIR$/wfm-wallboard/src/App.js" />
         <option value="$PROJECT_DIR$/wfm-wallboard/src/WallboardRowStatistic.css" />
         <option value="$PROJECT_DIR$/wfm-wallboard/src/WallboardRowQueue.js" />
         <option value="$PROJECT_DIR$/wfm-wallboard/src/WallboardHeader.css" />
         <option value="$PROJECT_DIR$/wfm-wallboard/src/WallboardHeader.js" />
+        <option value="$PROJECT_DIR$/wfm-wallboard/src/App.js" />
       </list>
     </option>
   </component>
@@ -233,7 +219,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582031755881" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582032196756" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../sampleapp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -265,12 +251,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581939737013</updated>
-      <workItem from="1581939744321" duration="23694000" />
+      <workItem from="1581939744321" duration="24544000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23694000" />
+    <option name="totallyTimeSpent" value="24544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1922" y="-528" width="1936" height="1056" extended-state="6" />
@@ -392,27 +378,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wfm-wallboard/src/App.js">
+    <entry file="file://$PROJECT_DIR$/wfm-wallboard/src/WallboardHeader.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wfm-wallboard/src/WallboardHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wfm-wallboard/src/WallboardHeader.css">
+    <entry file="file://$PROJECT_DIR$/wfm-wallboard/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wfm-wallboard/src/WallboardHeader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        <state relative-caret-position="323">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
