@@ -1,0 +1,8 @@
+.WallboardRow {
+    border-style: solid;
+    text-align: center;
+    background-color: #beffea;
+    height: 20vh;
+    margin: 10px 10px 10px 10px;
+}
+

@@ -1,0 +1,8 @@
+.WallboardHeader * {
+    background-color: #beffea;
+    height: 20vh;
+    text-align: center;
+}
+.WallboardHeader-cols {
+    border-style: solid;
+}
