@@ -8,15 +8,11 @@ import WallboardRowQueue from "./WallboardRowQueue"
 function WallboardRow() {
     return (
         <div className="WallboardRow">
-            <Container>
-                <Row>
                     <WallboardRowQueue />
                     <WallboardRowStatistic />
                     <WallboardRowStatistic />
                     <WallboardRowStatistic />
                     <WallboardRowStatistic />
-                </Row>
-            </Container>
         </div>
     )
 }

@@ -1,8 +1,20 @@
-.WallboardHeader * {
+.WallboardHeader {
+    display: flex;
+    justify-attributes: space-between;
     background-color: #beffea;
-    height: 20vh;
+    height: 15vh;
     text-align: center;
+    layout: hbox;
+    margin: 10px 10px 10px 10px;
 }
-.WallboardHeader-cols {
+.WallboardHeader-sides {
     border-style: solid;
+    width: 25%;
+    float: left;
+}
+
+.WallboardHeader-mid {
+    border-style: solid;
+    width: 50%;
+    float: left;
 }

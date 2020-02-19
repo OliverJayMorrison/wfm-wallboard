@@ -1,4 +1,6 @@
 .WallboardRow {
+    display: flex;
+j   ustify-attributes: space-between;
     border-style: solid;
     text-align: center;
     background-color: #beffea;
