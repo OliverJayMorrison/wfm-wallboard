@@ -1,9 +1,11 @@
 .WallboardRowStatistic {
-    display: flex;
-    width: 20vh;
-    justify-content: center;
+    min-width: 20vh;
     background-color: #beffea;
     border-style: solid;
     margin: 5px 5px 5px 5px;
     font-size: 5vw;
+}
+
+.WallboardRowStatistic-text {
+    font-size: 1vw;
 }

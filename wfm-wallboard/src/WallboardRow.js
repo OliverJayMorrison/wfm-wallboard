@@ -8,7 +8,7 @@ class WallboardRow extends Component {
         super(props);
         this.state = {
             queueId: this.props.queueId,
-            deferred: false,
+            deferred: this.props.deferred,
             queueName: undefined,
             statisticsData: {}
         };
@@ -45,20 +45,20 @@ class WallboardRow extends Component {
             return (
                 <div className="WallboardRow">
                     <WallboardRowQueue queueName={this.state.queueName}/>
-                    <WallboardRowStatistic stat={this.state.statisticsData.volumeActual} divider={this.state.statisticsData.volumeForecast}/>
-                    <WallboardRowStatistic stat={this.state.statisticsData.activityHandlingTimeActual} divider={this.state.statisticsData.activityHandlingTimeForecast}/>
-                    <WallboardRowStatistic stat={this.state.statisticsData.serviceLevelActual} divider={this.state.statisticsData.serviceLevelRequired}/>
-                    <WallboardRowStatistic stat={this.state.statisticsData.averageSpeedToAnswerActual} divider={this.state.statisticsData.averageSpeedToAnswerRequired}/>
+                    <WallboardRowStatistic stat={this.state.statisticsData.volumeActual} divider={this.state.statisticsData.volumeForecast} name={"Volume"} />
+                    <WallboardRowStatistic stat={this.state.statisticsData.activityHandlingTimeActual} divider={this.state.statisticsData.activityHandlingTimeForecast} name={"AHT"} />
+                    <WallboardRowStatistic stat={this.state.statisticsData.serviceLevelActual} divider={this.state.statisticsData.serviceLevelRequired} name={"Service Level"} />
+                    <WallboardRowStatistic stat={this.state.statisticsData.averageSpeedToAnswerActual} divider={this.state.statisticsData.averageSpeedToAnswerRequired} name={"ASA"} />
                 </div>
             )
         } else {
             return (
                 <div className="WallboardRow">
                     <WallboardRowQueue queueName={this.state.queueName}/>
-                    <WallboardRowStatistic actual={this.state.statisticsData.volumeActual} required={this.state.statisticsData.volumeForecast}/>
-                    <WallboardRowStatistic stat={this.state.statisticsData.backlogActual} />
-                    <WallboardRowStatistic stat={this.state.statisticsData.serviceLevelActual}/>
-                    <WallboardRowStatistic stat={this.state.statisticsData.volumeHandledActual}/>
+                    <WallboardRowStatistic stat={this.state.statisticsData.volumeActual} required={this.state.statisticsData.volumeForecast} name={"Volume"}/>
+                    <WallboardRowStatistic stat={this.state.statisticsData.backlogActual} name={"Backlog"} />
+                    <WallboardRowStatistic stat={this.state.statisticsData.serviceLevelActual} name={"Service Level"} />
+                    <WallboardRowStatistic stat={this.state.statisticsData.volumeHandledActual} name={"Volume Handled"} />
                 </div>
             )
         }

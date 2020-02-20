@@ -5,15 +5,18 @@ import {Col} from "react-bootstrap";
 class WallboardRowStatistic extends Component {
     constructor(props) {
         super(props);
-        this.state={
+        this.state = {
             stat: this.props.stat,
             divider: this.props.divider,
+            name: this.props.name,
             finalResult: this.props.stat - this.props.divider
         }
     }
 
     calculate() {
-        if (this.state.stat != null && this.state.divider != null){this.setState({finalResult: (this.state.stat - this.state.divider)})}
+        if (this.state.stat != null && this.state.divider != null) {
+            this.setState({finalResult: (this.state.stat - this.state.divider)})
+        }
         if (this.state.stat == null) {
             //Set background to RED
             return (<Col className="WallboardRowStatistic">ERROR</Col>)
@@ -26,9 +29,13 @@ class WallboardRowStatistic extends Component {
     }
 
 
-
     render() {
-        return (<Col className="WallboardRowStatistic">{this.props.stat}</Col>)
+        return (
+                <Col className="WallboardRowStatistic">
+                    <div>{this.props.stat}</div>
+                    <div className="WallboardRowStatistic-text">{this.props.name}</div>
+                </Col>
+        )
     }
 }
 
