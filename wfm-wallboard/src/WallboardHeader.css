@@ -20,18 +20,25 @@
 
 .WallboardHeader-right {
     display: flex;
+    background-color: #ff9700;
     justify-content: center;
     border-style: solid;
+    color: white;
+    border-color: black;
     width: 25%;
-    font-size: 35px;
+    font-size: 2.2vw;
+    font-weight: bold;
     text-align: center;
 }
 
 .WallboardHeader-mid {
     display: flex;
+    background-color: #00cdff;
+    color: white;
+    border-color: black;
     justify-content: center;
     border-style: solid;
     width: 50%;
     float: left;
-    font-size: 65px;
+    font-size: 4vw;
 }

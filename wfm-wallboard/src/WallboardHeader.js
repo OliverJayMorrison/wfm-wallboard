@@ -3,7 +3,7 @@ import "./WallboardHeader.css"
 import Clock from "./Clock.js"
 
 function WallboardHeader() {
-    let image = require('../resources/verint.png');
+    let image = require('../resources/verint2.png');
     return (
         <div className="WallboardHeader">
             <div className="WallboardHeader-left">

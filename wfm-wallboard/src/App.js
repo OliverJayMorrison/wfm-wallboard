@@ -11,6 +11,7 @@ class App extends Component {
                 <WallboardRow queueId={'1586'} />
                 <WallboardRow queueId={'1589'} />
                 <WallboardRow queueId={'1596'} />
+                <WallboardRow queueId={'1590'} deferred={true} />
             </div>
         )
     }
