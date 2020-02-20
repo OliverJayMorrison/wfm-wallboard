@@ -5,7 +5,7 @@ import {Col} from "react-bootstrap";
 class WallboardRowQueue extends Component {
     render() {
         return (
-            <Col className="WallboardRowQueue">{this.props.queueId}</Col>
+            <Col className="WallboardRowQueue">{this.props.queueName}</Col>
         )
     }
 }

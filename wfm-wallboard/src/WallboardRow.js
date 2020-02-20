@@ -8,25 +8,25 @@ class WallboardRow extends Component {
         super(props);
         this.state = {
             queueId: this.props.queueId,
-            queueName: [],
-            statisticsData: []
+            queueName: undefined,
+            statisticsData: {}
         };
     }
 
     componentDidMount() {
-        fetch('http://localhost:3001/127.0.0.1:7001/api/wfm/main/v1/queues/' + this.props.queueId.toString() + '/statistics?filter%5BfromDate%5D=2020-03-23T00%3A00%3A00.000Z&filter%5BtoDate%5D=2020-03-23T00%3A15%3A00.000Z',
+        fetch('http://localhost:3001/127.0.0.1:7001/api/wfm/main/v1/queues/' + this.props.queueId + '/statistics?filter%5BfromDate%5D=2020-02-19T00%3A00%3A00.000Z&filter%5BtoDate%5D=2020-02-19T00%3A15%3A00.000Z',
             {
                 headers: {
                     VerintUserName: 'wsuperuser'
                 }
             })
-            .then(res => res.json())
+            .then(results => results.json())
             .then((data) => {
-                this.setState({statisticsData: data})
+                this.setState({statisticsData: data.data.attributes.timeSeries[0]})
             })
             .catch(console.log);
 
-        fetch('http://localhost:3001/127.0.0.1:7001/api/wfm/main/v1/queues/',
+        fetch('http://localhost:3001/127.0.0.1:7001/api/wfm/main/v1/queues/' + this.props.queueId,
             {
                 headers: {
                     VerintUserName: 'wsuperuser'
@@ -34,7 +34,7 @@ class WallboardRow extends Component {
             })
             .then(res => res.json())
             .then((data) => {
-                this.setState({queueName: data})
+                this.setState({queueName: data.data.attributes.name})
             })
             .catch(console.log);
     }
@@ -42,11 +42,11 @@ class WallboardRow extends Component {
     render() {
         return (
             <div className="WallboardRow">
-                <WallboardRowQueue queueName={this.state.queueId}/>
-                <WallboardRowStatistic statisticsData={this.state.statisticsData}/>
-                <WallboardRowStatistic stat={this.state.statisticsData}/>
-                <WallboardRowStatistic stat={this.state.statisticsData}/>
-                <WallboardRowStatistic stat={this.state.statisticsData}/>
+                <WallboardRowQueue queueName={this.state.queueName}/>
+                <WallboardRowStatistic stat={this.state.statisticsData.volumeActual}/>
+                <WallboardRowStatistic stat={this.state.statisticsData.activityHandlingTimeActual}/>
+                <WallboardRowStatistic stat={this.state.statisticsData.serviceLevelActual}/>
+                <WallboardRowStatistic stat={this.state.statisticsData.averageSpeedToAnswerActual}/>
             </div>
         )
     }

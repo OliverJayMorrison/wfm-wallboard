@@ -5,16 +5,33 @@
     text-align: center;
     margin: 5px 5px 5px 5px;
 }
-.WallboardHeader-sides {
+.WallboardHeader-left {
+    display: flex;
+    justify-content: center;
     border-style: solid;
     width: 25%;
-    float: left;
-    font-size: 30px;
+    font-size: 35px;
+}
+
+.WallboardHeader-left img {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.WallboardHeader-right {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    width: 25%;
+    font-size: 35px;
+    text-align: center;
 }
 
 .WallboardHeader-mid {
+    display: flex;
+    justify-content: center;
     border-style: solid;
     width: 50%;
     float: left;
-    font-size: 60px;
+    font-size: 65px;
 }

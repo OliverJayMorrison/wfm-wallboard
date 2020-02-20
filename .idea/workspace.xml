@@ -24,20 +24,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="717edbd4-838e-45da-a586-b62f73ceb7e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wfm-wallboard/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfm-wallboard/src/Clock.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wfm-wallboard/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/wfm-wallboard/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wfm-wallboard/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/wfm-wallboard/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wfm-wallboard/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/wfm-wallboard/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wfm-wallboard/src/WallboardHeader.css" beforeDir="false" afterPath="$PROJECT_DIR$/wfm-wallboard/src/WallboardHeader.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wfm-wallboard/src/WallboardHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/wfm-wallboard/src/WallboardHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wfm-wallboard/src/WallboardRow.css" beforeDir="false" afterPath="$PROJECT_DIR$/wfm-wallboard/src/WallboardRow.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wfm-wallboard/src/WallboardRow.js" beforeDir="false" afterPath="$PROJECT_DIR$/wfm-wallboard/src/WallboardRow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wfm-wallboard/src/WallboardRowQueue.css" beforeDir="false" afterPath="$PROJECT_DIR$/wfm-wallboard/src/WallboardRowQueue.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wfm-wallboard/src/WallboardRowQueue.js" beforeDir="false" afterPath="$PROJECT_DIR$/wfm-wallboard/src/WallboardRowQueue.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wfm-wallboard/src/WallboardRowStatistic.css" beforeDir="false" afterPath="$PROJECT_DIR$/wfm-wallboard/src/WallboardRowStatistic.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wfm-wallboard/src/WallboardRowStatistic.js" beforeDir="false" afterPath="$PROJECT_DIR$/wfm-wallboard/src/WallboardRowStatistic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wfm-wallboard/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/wfm-wallboard/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,16 +78,36 @@
       <updated>1581939737013</updated>
       <workItem from="1581939744321" duration="24881000" />
     </task>
+    <task id="LOCAL-00001" summary="api up and running, and not showing correct data">
+      <created>1582206334535</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582206334535</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="api up and running, and not showing correct data" />
+    <option name="LAST_COMMIT_MESSAGE" value="api up and running, and not showing correct data" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="2515" y="-406" key="CommitChangelistDialog2" timestamp="1582206332140">
+      <screen x="1930" y="-520" width="1920" height="1040" />
+    </state>
+    <state x="2515" y="-406" key="CommitChangelistDialog2/0.0.1536.824/10.-1080.1920.1040/1930.-520.1920.1040@1930.-520.1920.1040" timestamp="1582206332140" />
     <state x="2602" y="-284" key="MultipleFileMergeDialog" timestamp="1582190198629">
       <screen x="1930" y="-520" width="1920" height="1040" />
     </state>
     <state x="2602" y="-284" key="MultipleFileMergeDialog/0.0.1536.824/10.-1080.1920.1040/1930.-520.1920.1040@1930.-520.1920.1040" timestamp="1582190198629" />
+    <state x="2482" y="-267" key="Vcs.Push.Dialog.v2" timestamp="1582206345544">
+      <screen x="1930" y="-520" width="1920" height="1040" />
+    </state>
+    <state x="2482" y="-267" key="Vcs.Push.Dialog.v2/0.0.1536.824/10.-1080.1920.1040/1930.-520.1920.1040@1930.-520.1920.1040" timestamp="1582206345544" />
   </component>
   <component name="masterDetails">
     <states>
