@@ -1,20 +1,20 @@
 .WallboardHeader {
     display: flex;
-    justify-attributes: space-between;
     background-color: #beffea;
     height: 15vh;
     text-align: center;
-    layout: hbox;
-    margin: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 5px;
 }
 .WallboardHeader-sides {
     border-style: solid;
     width: 25%;
     float: left;
+    font-size: 30px;
 }
 
 .WallboardHeader-mid {
     border-style: solid;
     width: 50%;
     float: left;
+    font-size: 60px;
 }

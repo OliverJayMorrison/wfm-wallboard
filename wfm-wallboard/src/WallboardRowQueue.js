@@ -1,12 +1,13 @@
-import React from "react"
+import React, {Component} from "react"
 import "./WallboardRowQueue.css"
 import {Col} from "react-bootstrap";
 
-
-function WallboardRowQueue(){
-    return (
-        <Col className="WallboardRowQueue">Queue name</Col>
-    )
+class WallboardRowQueue extends Component {
+    render() {
+        return (
+            <Col className="WallboardRowQueue">{this.props.queueId}</Col>
+        )
+    }
 }
 
 export default WallboardRowQueue

@@ -1,17 +1,19 @@
-import React from "react"
+import React, {Component} from "react"
 import WallboardHeader from "./WallboardHeader"
 import WallboardRow from "./WallboardRow"
 
-function App() {
-    return (
-        <div>
-            <WallboardHeader />
-            <WallboardRow />
-            <WallboardRow />
-            <WallboardRow />
-            <WallboardRow />
-        </div>
-    )
+class App extends Component {
+
+    render() {
+        return (
+            <div>
+                <WallboardHeader/>
+                <WallboardRow queueId={'1586'} />
+                <WallboardRow queueId={'1589'} />
+                <WallboardRow queueId={'1596'} />
+            </div>
+        )
+    }
 }
 
 export default App

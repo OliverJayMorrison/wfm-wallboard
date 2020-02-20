@@ -1,11 +1,13 @@
-import React from "react"
+import React, {Component} from "react"
 import "./WallboardRowStatistic.css"
 import {Col} from "react-bootstrap";
 
-function WallboardRowStatistic() {
-    return (
-        <Col className="WallboardRowStatistic">Statistic</Col>
-    )
+class WallboardRowStatistic extends Component {
+    render() {
+        return (
+            <Col className="WallboardRowStatistic">{this.props.stat}</Col>
+        )
+    }
 }
 
 export default WallboardRowStatistic
