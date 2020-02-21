@@ -18,7 +18,7 @@ class WallboardRowStatistic extends Component {
             this.setState({finalResult: (this.state.stat - this.state.divider)})
         }
         if (this.state.stat == null) {
-            //Set background to RED
+            this.element.style.backgroundColor="red";
             return (<Col className="WallboardRowStatistic">ERROR</Col>)
         } else if (this.state.finalResult < 0) {
             //Set background to red

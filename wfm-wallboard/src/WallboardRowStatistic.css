@@ -1,4 +1,8 @@
 .WallboardRowStatistic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     min-width: 20vh;
     background-color: #beffea;
     border-style: solid;

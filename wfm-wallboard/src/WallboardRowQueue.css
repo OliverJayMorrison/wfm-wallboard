@@ -1,4 +1,7 @@
 .WallboardRowQueue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #beffea;
     max-width: 20vw;
     border-style: solid;
